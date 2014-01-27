@@ -1,0 +1,11 @@
+Security:
+"I am the security guard."
+
+Employee1:
+"I am an employee"
+
+Employee2:
+"I am an employee"
+
+Secretary:
+"Hello, how may I help you?"
