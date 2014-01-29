@@ -170,9 +170,9 @@ public class MainClass extends Applet implements Runnable, KeyListener {
         employeeAnims = new PersonAnim(charImg.getSubimage(46, 42, 14, 21), charImg.getSubimage(60, 42, 14, 21),
                 charImg.getSubimage(74, 42, 14, 21), charImg.getSubimage(0, 42, 16, 21),
                 charImg.getSubimage(16, 42, 15, 21), charImg.getSubimage(31, 42, 15, 21),
-                charImg.getSubimage(88, 42, 14, 21),charImg.getSubimage(102, 42, 14, 21), 
-                charImg.getSubimage(116, 42, 14, 21),charImg.getSubimage(130, 42, 16, 21),
-                charImg.getSubimage(146, 42, 15, 21),charImg.getSubimage(161, 42, 15, 21) );
+                charImg.getSubimage(130, 42, 16, 21), charImg.getSubimage(146, 42, 15, 21),
+                charImg.getSubimage(161, 42, 15, 21), charImg.getSubimage(88, 42, 14, 21),
+                charImg.getSubimage(102, 42, 14, 21), charImg.getSubimage(116, 42, 14, 21) );
         
         secretaryAnims = new PersonAnim(charImg.getSubimage(88, 63, 14, 21),charImg.getSubimage(102, 63, 14, 21), 
                 charImg.getSubimage(116, 63, 14, 21), charImg.getSubimage(0, 63, 16, 21),
@@ -256,12 +256,10 @@ public class MainClass extends Applet implements Runnable, KeyListener {
 
     @Override
     public void stop() {
-        // TODO Auto-generated method stub
     }
 
     @Override
     public void destroy() {
-        // TODO Auto-generated method stub
     }
 
     @Override
